@@ -1,6 +1,5 @@
 {
 	"imports": {
-		"testing/": "https://deno.land/std@0.143.0/testing/",
-		"src/": "./src/"
+		"testing/": "https://deno.land/std@0.143.0/testing/"
 	}
 }

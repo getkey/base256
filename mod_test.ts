@@ -1,5 +1,5 @@
 import { assertEquals, assertFalse } from 'testing/asserts.ts';
-import { base256Encode, base256Decode } from 'src/mod.ts';
+import { base256Decode, base256Encode } from './mod.ts';
 
 Deno.test('base256Encode', () => {
 	const data = new Uint8Array([2, 3, 4, 5]);
